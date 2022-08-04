@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Kanit;
 }
 
-.h1-imposto {
+.h1-imposto, a {
     font-family: 'Anton', sans-serif;
 }
 
@@ -28,3 +28,30 @@ blockquote, cite, q {
 p {
     font-family: Vollkorn;
 }
+
+
+/* --------------------- Menu --------------------- */
+
+nav {
+    background-color: var(--vermelho);
+    height: 5rem;
+    border-radius: 0 0 1.2rem 0;
+    overflow: hidden;
+}
+
+nav img {
+    height: 2.5em;
+}
+
+nav li a {
+    font-size: 1.5em;
+}
+
+nav #search {
+    height: 4em;
+    width: 15em;
+    border-radius: 1.2em 0 1.2em 0;
+    margin-top: .2em;
+}
+
+
