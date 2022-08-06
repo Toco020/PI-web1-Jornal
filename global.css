@@ -5,9 +5,10 @@
     --verde: #6FBFA2;
     --amarelo: #F2B705;
     --preto: #000000;
-    --branco: # F2F2F2;
+    --branco: #F2F2F2;
 
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Kanit;
@@ -54,4 +55,67 @@ nav #search {
     margin-top: .2em;
 }
 
+/* ------------------------------------------------ */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- Footer -------------------- */
+
+footer {
+    background-color: rgba( 0, 0, 0, .3) !important;
+    padding-top: 0 !important;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    border-radius: 1.2rem 0 0 0;
+}
+
+footer .row {
+    margin-bottom: auto;
+    width: 70%;
+}
+
+footer img {
+    margin-top: .8em;
+    max-height: 2em; 
+    border-radius: .3em;
+}
+
+footer h5 {
+    font-size: 1.3em;
+    padding-bottom: .5em;
+    transition: color .5s;
+}
+
+footer h5:hover {
+    color: var(--vermelho) !important;
+    font-weight: 450;
+}
+
+/* ------------------------------------------------ */
