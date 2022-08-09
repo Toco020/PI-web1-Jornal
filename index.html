@@ -45,24 +45,33 @@
 
       <div class="col l4 s12 center">
         <div class="fundo-branco">
-          <div><img src="./imagens/imgs criadas/buraco-negro-luz-210x172.jpg.webp" alt="notícia de destaque do dia"></div>
+          <figure>
+            <img src="./imagens/imgs criadas/buraco-negro-luz-210x172.jpg.webp" alt="notícia de destaque do dia">
+            <figcaption><p>Notícia de destaque do dia</p></figcaption>
+          </figure>
         </div>
       </div>
       <div class="col l4 s12 center">
         <div class="fundo-branco">
-          <div><img src="./imagens/imgs criadas/motorola-razr-wrap-around-smartphone-353x225.jpg.webp" alt="notícia de destaque do dia"></div>
+          <figure>
+            <img src="./imagens/imgs criadas/motorola-razr-wrap-around-smartphone-353x225.jpg.webp" alt="notícia de destaque do dia">
+            <figcaption><p>Notícia de destaque do dia</p></figcaption>
+          </figure>
         </div>
       </div>
       <div class="col l4 s12 center">
         <div class="fundo-branco">
-          <div><img src="./imagens/imgs criadas/tecnologia-mundo-353x225.jpg.webp" alt="notícia de destaque do dia"></div>
+          <figure>
+            <img src="./imagens/imgs criadas/tecnologia-mundo-353x225.jpg.webp" alt="notícia de destaque do dia">
+            <figcaption><p>Notícia de destaque do dia</p></figcaption>
+          </figure>
         </div>
       </div>
 
     </section>
 
 
-
+    <!--
     <div id="noticias" class="row">
       <div id="noticias-recentes" class="col l6 s12">
         <h2>Notícias Recentes</h2>
@@ -143,7 +152,7 @@
       </div>
 
     </div>
-
+-->
 
 
 
@@ -198,5 +207,13 @@
       
     </footer>
   </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems, options);
+    });
+
+  </script>
 </body>
 </html>
