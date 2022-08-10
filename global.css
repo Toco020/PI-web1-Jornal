@@ -7,9 +7,10 @@
 }
 
 :root {
-    --vermelho: hsl(355, 79%, 48%);
+    --impacto: hsl(220, 89%, 51%);
     --verde: hsl(158, 38%, 59%);
     --amarelo: hsl(45, 96%, 48%);
+    --vermelho: hsl(355, 79%, 48%);
     --preto: hsl(0, 0%, 0%);
     --branco: hsl(0, 0%, 95%);
 
