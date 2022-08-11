@@ -1,14 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=BhuTuka+Expanded+One&family=Caveat:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --vermelho: #D91A2A;
-    --verde: #6FBFA2;
-    --amarelo: #F2B705;
-    --preto: #000000;
-    --branco: #F2F2F2;
 
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
+:root {
+    --impacto: hsl(220, 89%, 51%);
+    --verde: hsl(158, 38%, 59%);
+    --amarelo: hsl(45, 96%, 48%);
+    --vermelho: hsl(355, 79%, 48%);
+    --preto: hsl(0, 0%, 0%);
+    --branco: hsl(0, 0%, 95%);
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+body::-webkit-scrollbar {
+    width: 0;               /* width of the entire scrollbar */
+}
+
+/*body::-webkit-scrollbar-track {
+    background: var(--branco);        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--vermelho);   
+    border-radius: 0 .6rem 0 .6rem;       
+    border: 1px solid var(--verde); 
+}*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Kanit;
@@ -24,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 
 blockquote, cite, q {
     font-family: Caveat;
+}
+
+q {
+    font-size: 2.2rem;
 }
 
 p {
@@ -56,32 +85,6 @@ nav #search {
 }
 
 /* ------------------------------------------------ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
