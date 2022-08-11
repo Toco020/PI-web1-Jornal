@@ -109,7 +109,7 @@ article .img {
 }
 
 article img {
-    min-height: 90%;
+    width: 28em;
     border-radius: 1.2em 0 1.2em 0;
 }
 
@@ -125,7 +125,6 @@ article img {
 /* --------------------- Métricas --------------------- */
 
 #metricas {
-    /* background-color: var(--branco); */
     border-radius: 1.2em 0 1.2em 0;
     box-shadow: .3em .3em .8em rgba(0, 0, 0, 0.25);
     padding: 2em;
