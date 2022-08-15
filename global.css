@@ -64,7 +64,7 @@ p {
 
 nav {
     background-color: var(--vermelho);
-    height: 5rem;
+    height: 6rem;
     border-radius: 0 0 1.2rem 0;
     overflow: hidden;
 }
@@ -84,6 +84,66 @@ nav #search {
     margin-top: .2em;
 }
 
+@media screen and (max-width: 400px) {
+    
+    /* Style the navigation menu */
+  nav {
+    /* overflow: hidden; */
+    width: 100vw;
+    height: 10vh;
+  }
+
+  nav div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-image: url("../../imgs/logo Notícia Impostora.jpg");
+    width: 15vw;
+    height: 10vh;
+    border-radius: 1.2rem 0 1.2rem 0;
+    /* margin-left: 45vw;
+    transition: margin-left ease-in-out .5s; */
+  }
+  
+  /* .active:active {
+    margin-left: 0;
+  } */
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  nav #nav-mobile {
+    display: none;
+    margin: 0;
+    padding: 0 0 1rem 0;
+  }
+  
+  /* Style navigation menu links */
+  nav a {
+    /* color: white; */
+    text-decoration: none;
+    font-size: 2.5rem;
+  }
+  
+  nav li {
+    margin: auto 2vw;
+  }
+
+  /* Add a grey background color on mouse-over */
+  nav li:hover {
+    background-color: #ddd;
+    color: black;
+  }
+    
+  nav a.icon {
+    position: absolute;
+    right: 6vw;
+    top: .5vh;
+    display: block;
+  }
+
+}
 /* ------------------------------------------------ */
 
 

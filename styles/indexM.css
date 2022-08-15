@@ -1,0 +1,57 @@
+@media screen and (max-width: 400px) {
+    
+    /* --------------------- Notícias Recentes --------------------- */
+
+    #noticias-recentes article {
+        height: 40em;
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: lightcoral; */
+    }
+
+    article .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article img {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    #noticias-recentes article h3 {
+        font-size: 2em;
+        max-height: 70%;
+        /* background-color: lightblue; */
+        overflow: hidden;
+    }
+
+    #noticias-recentes article q {
+        font-size: 1.8em;
+        max-height: 100%;
+        /* background-color: lightgreen; */
+    }
+
+    /* ------------------------------------------------------------- */
+
+    /* --------------------- Métricas --------------------- */
+
+    #metricas div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #metricas .linhas {
+        margin-bottom: 0;
+    }
+
+    /* ---------------------------------------------------- */
+
+}

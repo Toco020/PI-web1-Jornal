@@ -91,11 +91,15 @@ section {
     height: 20em;
     border-radius: 1.2em 0 1.2em 0;
     box-shadow: .3em .3em .8em rgba(0, 0, 0, 0.25);
-    margin-bottom: 3.5em;
+    /* margin-bottom: 1.5em; */
     background-color: var(--branco);
     overflow: hidden;
-    display: flex;
     transition: box-shadow .3s;
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 
 #noticias-recentes article:hover {
@@ -109,31 +113,27 @@ article .img {
 }
 
 article img {
-    width: 28em;
+    height: 100%;
+    width: 100%;
     border-radius: 1.2em 0 1.2em 0;
 }
 
 #noticias-recentes article h3 {
     font-size: 2em;
-    max-height: 70%;
+    max-height: 50%;
+    /* background-color: lightblue; */
+    overflow: hidden;
 }
 
-/* Ajuste para o mobile */
+#noticias-recentes article q {
+    font-size: 1.8em;
+    max-height: 100%;
+    /* background-color: lightgreen; */
+}
 
 /* ------------------------------------------------------------- */
 
 /* --------------------- Métricas --------------------- */
-
-#metricas {
-    border-radius: 1.2em 0 1.2em 0;
-    box-shadow: .3em .3em .8em rgba(0, 0, 0, 0.25);
-    padding: 2em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .impacto {
     background-color: rgba(19, 93, 241, .1);
@@ -162,6 +162,24 @@ article img {
     border-radius: 1.4em 0 1.7em 0;
     box-shadow: .3em .3em .8em rgba(0, 0, 0, .5);
 }
+
+#metricas {
+    border-radius: 1.2em 0 1.2em 0;
+    box-shadow: .3em .3em .8em rgba(0, 0, 0, 0.25);
+    padding: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#metricas div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #metricas .box{
     height: 12em;
